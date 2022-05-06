@@ -1,2 +1,2 @@
 # passgen
-Scrimba soloe project #2
+Scrimba solo project #2
