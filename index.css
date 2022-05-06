@@ -111,10 +111,10 @@ button {
     background: #03770344;
     border: white solid 1px;
     border-radius: 4px;
-    width: 40;
+    width: 43;
     text-align: center;
     margin-left: 10px;
-    padding: 2.5px;
+    padding: 2px 0px;
 
     /* white */
     color: #FFFFFF;
@@ -144,18 +144,4 @@ button {
 }
 #bolt-icon {
     padding-right: 8px;
-}
-
-
-/* hide number input arrows */
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    /* display: none; <- Crashes Chrome on hover */
-    -webkit-appearance: none;
-    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
-}
-
-input[type=number] {
-    -moz-appearance:textfield; /* Firefox */
 }
