@@ -1,0 +1,161 @@
+html, body {
+    margin: 0;
+    padding-left: 52px;
+    background-color: #1F2937;
+    width: 485;
+}
+
+header {
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    padding: 0;
+}
+
+.line {
+    width: 485px;
+    border-top: 1px solid #2F3E53;
+}
+
+.columns {
+    display: flex;
+}
+
+.column-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 211;
+    margin: 51px 32px 38px 0px;
+
+}
+.column {
+    align-items: center;
+    width: 211;
+    height: 39px;
+    margin: 17px 17px 0px 0px;
+    padding: 9px 17px 9px 0;
+    
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: -0.025em;
+    line-height: 40px;
+    margin-top: 118px;
+    margin-bottom: 0px;
+
+    /* white */
+    color: #FFFFFF;
+}
+
+h2 {
+
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: -0.025em;
+    line-height: 40px;
+    margin: 0;
+
+    /* light green */
+    color: #10B981;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 10px;
+
+    /* Medium grey */
+    color: #D5D4D8;
+}
+
+button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 24px;
+
+    /* appearance */
+    background: #10B981;
+    width: 211px;
+    height: 43px;
+
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: 0;
+
+    /* white */
+    color: #FFFFFF;
+
+    /* internal layout */
+    display: flex;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+
+}
+#input-n {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+
+    /* appearance */
+    background: #03770344;
+    border: white solid 1px;
+    border-radius: 4px;
+    width: 40;
+    text-align: center;
+    margin-left: 10px;
+    padding: 2.5px;
+
+    /* white */
+    color: #FFFFFF;
+}
+.answerbox {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+
+    /* light green  */
+    color: #55F991;
+
+    /* appearance */
+    background: #273549;
+    border-radius: 6px;
+    width: 211px;
+    height: 43px;
+    border: 0;
+
+    /* internal layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 17px 30px 0px; 
+}
+#bolt-icon {
+    padding-right: 8px;
+}
+
+
+/* hide number input arrows */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}

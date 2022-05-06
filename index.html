@@ -1,0 +1,56 @@
+<!DOCTYPE = html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <!-- main title -->
+            <h1>Generate a</h1>
+            <h2>random password</h2>
+
+            <!-- scecondary title -->
+            <h3>Never use an insecure password again.</h3>
+
+          <!-- Columns container -->
+            <div class="columns">  
+                 <!--button column 1  note: do button icon--> 
+                <div class="column-top">
+                    <button class="generate-but" onclick="generate()"><img id="bolt-icon" src= "Icon-bolt.png">Generate passwords</button>
+                </div>
+                <!--button column 2  -->
+                <div class="column-top">
+                <button class="length-but">Password length<input id="input-n" type="number" value="12" ></button>
+            </div>
+            </div>
+            
+        </header>
+        <main>
+            <!-- line container -->
+            <div class="line"></div>
+            <!-- Columns container -->
+            <div class="columns">  
+            <!--output column 1  -->
+                <div class="column">
+                    <div class="answerbox" id="ans-tl"><p>Test result text</p></div>
+                    <div class="answerbox" id="ans-bl"><img src="Icon-dots.png"></div>
+                </div>
+                <!--output column 2  -->
+                <div class="column">
+                    <div class="answerbox" id="ans-tr"><img src="Icon-dots.png"></div>
+                    <div class="answerbox" id="ans-br"><img src="Icon-dots.png"></div>
+                </div>
+            </div>
+
+        </main>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
