@@ -1,2 +1,2 @@
 # passgen
-Scrimba password generator project
+Scrimba soloe project #2
